@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:50px;
+}
+
+button  {
+    height: 45px;
+    width: 45px;
+    border-radius:10px;
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    transition: transform 0.7s;
+    font-size: 1.5rem;
+    outline:none;
+}
+
+button:hover {
+    transform:scale(1.5);
+}
+
+h2 {
+    transition: background 0.5s;
+    text-shadow: 1px 1px coral;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col h2:hover {
+    background: rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+
